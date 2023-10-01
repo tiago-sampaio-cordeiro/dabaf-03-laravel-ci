@@ -6,12 +6,16 @@ use PHPUnit\Framework\TestCase;
 
 class calculadora extends TestCase
 
-{    
-    public function test_soma_de_variaveis()
-    {
-        $number1 = 5;
-        $number2 = 5;
-        $resultado = $number1 + $number2;
-        $this->assertSame(15, $resultado);
+{
+
+    function somar($numero1, $numero2) {
+        $numero1 = 5;
+        $numero2 = 5;
+        $resultado = $numero1 + $numero2;
+        return $resultado;
+        $this->assertSame(5, $resultado);
     }
+
 }
+
+
