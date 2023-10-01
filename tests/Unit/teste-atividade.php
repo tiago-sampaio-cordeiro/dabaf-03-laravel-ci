@@ -4,11 +4,10 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-final class EqualsTest extends TestCase
+final class SameWithMixedTest extends TestCase
 {
     public function testFailure(): void
     {
-        $this->assertEquals(1, 0);
+        $this->assertSame('2204', 2204);
     }
-
 }
