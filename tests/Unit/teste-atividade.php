@@ -12,6 +12,6 @@ class calculadora extends TestCase
         $number1 = 5;
         $number2 = 5;
         $resultado = $number1 + $number2;
-        $this->assertSame(10, $resultado);
+        $this->assertSame(15, $resultado);
     }
 }
