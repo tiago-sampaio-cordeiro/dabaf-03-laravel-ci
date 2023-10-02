@@ -26,7 +26,7 @@ class testAtividade extends TestCase
     /**
      * A basic test example.
      */
-    public function soma(): void
+    public function soma()
     {
         $number1 = 5;
         $number2 = 5;
