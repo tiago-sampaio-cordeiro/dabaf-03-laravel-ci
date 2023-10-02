@@ -4,17 +4,24 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-class testAtividade extends TestCase
+class testeAtividade extends TestCase
 {
     /**
      * A basic test example.
      */
-    public function soma(): void
+    function somar($numero1, $numero2) {
+        return $numero1 + $numero2;
+    
+    
+    // Exemplo de uso da função
+    $numero1 = 5;
+    $numero2 = 5;
+    $resultado = somar($numero1, $numero2);
+   
     {
-        $number1 = 5;
-        $number2 = 5;
-        $resultado = $number1 + $number2;
-
-        $this->assertSame(15, $resultado);
+        $this->assertSame(15,$resultado);
     }
 }
+}
+
+
