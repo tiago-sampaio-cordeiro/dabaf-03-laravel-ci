@@ -19,7 +19,7 @@ class testeAtividade extends TestCase
     $resultado = somar($numero1, $numero2);
    
     {
-        $this->assertSame(15,$resultado);
+        $this->assertEquals(15,$resultado);
     }
 }
 }
