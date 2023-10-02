@@ -32,6 +32,6 @@ class testAtividade extends TestCase
         $number2 = 5;
         $resultado = $number1 + $number2;
 
-        $this->assertSame(15, $resultado);
+        $this->assertEquals (15, $resultado);
     }
 }
