@@ -1,6 +1,6 @@
 <?php
 
-namespace testAtividade;
+namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
@@ -8,6 +8,6 @@ class testeAtividade extends TestCase
 {
     public function testFailure(): void
     {
-        $this->assertSame('2204', '220');
+        $this->assertSame('2204', 220);
     }
 }
