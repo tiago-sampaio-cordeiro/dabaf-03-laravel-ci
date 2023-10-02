@@ -14,24 +14,3 @@ class ExampleTest extends TestCase
         $this->assertTrue(true);
     }
 }
-
-
-
-namespace Tests\Unit;
-
-use PHPUnit\Framework\TestCase;
-
-class testAtividade extends TestCase
-{
-    /**
-     * A basic test example.
-     */
-    public function soma()
-    {
-        $number1 = 5;
-        $number2 = 5;
-        $resultado = $number1 + $number2;
-
-        $this->assertEquals (15, $resultado);
-    }
-}
