@@ -4,10 +4,17 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-class testeAtividade extends TestCase
+class ExampleTest extends TestCase
 {
-    public function testFailure(): void
+    /**
+     * A basic test example.
+     */
+    public function soma(): void
     {
-        $this->assertSame('2204', 220);
+        $number1 = 5;
+        $number2 = 5;
+        $resultado = $number1 + $number2;
+
+        $this->assertSame(15, $resultado);
     }
 }
