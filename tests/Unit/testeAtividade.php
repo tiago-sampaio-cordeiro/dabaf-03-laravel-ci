@@ -4,7 +4,7 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-final class SameWithMixedTest extends TestCase
+class testeAtividade extends TestCase
 {
     public function testFailure(): void
     {
