@@ -28,9 +28,9 @@ final class AtividadeTest extends TestCase
     {
         $preco = 100;
         $desconto = 10;
-        $precoFinal = $preco - ($preco * $desconto/100);
+        $precoFinal = $preco - ($preco * ($desconto/100));
 
-        $this->assertTrue($precoFinal > 0);
+        $this->assertTrue($precoFinal > 100);
     }
 
 }
