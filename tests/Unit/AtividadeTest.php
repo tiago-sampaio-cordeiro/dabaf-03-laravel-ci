@@ -14,4 +14,15 @@ final class AtividadeTest extends TestCase
 
         $this->assertEquals(10, $resultado);
     }
+
+    public function testFailure2(): void
+    {
+        $this->assertEquals('bar', 'baz');
+    }
+
+    public function testFailure(): void
+    {
+        $this->assertSame('2204', 2204);
+    }
+
 }
