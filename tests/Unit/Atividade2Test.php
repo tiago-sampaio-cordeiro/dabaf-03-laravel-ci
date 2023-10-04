@@ -11,6 +11,6 @@ final class Atividade2Test extends TestCase
         $anoNascimento = 1960;
         $anoAtual = date('Y');
         $idade = $anoAtual - $anoNascimento;
-        $this->assertSame(35, $idade);
+        $this->assertEquals(35, $idade);
     }
 }
