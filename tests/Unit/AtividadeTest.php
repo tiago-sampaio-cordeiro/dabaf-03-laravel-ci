@@ -15,18 +15,4 @@ final class AtividadeTest extends TestCase
 
         $this->assertEquals(10, $resultado);
     }
-
-    public function idade() {
-        $anoNascimento = 1960;
-        $anoAtual = date('Y');
-        $idade = $anoAtual - $anoNascimento;
-        $this->assertSame(35, $idade);
-    }
-
-    public function desconto() {
-        $preco = 100;
-        $desconto = 10;
-        $precoFinal = $preco - ($preco * ($desconto/100));
-        $this->assertTrue($precoFinal > 0);
-    }
 }
