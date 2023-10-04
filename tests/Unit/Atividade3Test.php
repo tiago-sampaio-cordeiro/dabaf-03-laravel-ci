@@ -4,7 +4,7 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-class AtividadeTest extends TestCase
+final class AtividadeTest extends TestCase
 {
     public function desconto(): void
     {
