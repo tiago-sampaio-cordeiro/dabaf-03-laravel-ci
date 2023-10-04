@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 final class AtividadeTest extends TestCase
 {
-    public function testSoma(): void
+    public function testSoma()
     {
         $num1 = 10;
         $num2 = 15;

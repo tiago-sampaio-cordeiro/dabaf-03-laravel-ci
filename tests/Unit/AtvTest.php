@@ -4,9 +4,9 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-final class Atividade2Test extends TestCase
+final class AtvTest extends TestCase
 {
-    public function idade(): void
+    public function idade()
      {
         $anoNascimento = 1960;
         $anoAtual = date('Y');

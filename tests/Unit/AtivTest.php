@@ -4,9 +4,9 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-final class AtividadeTest extends TestCase
+final class AtivTest extends TestCase
 {
-    public function desconto(): void
+    public function desconto()
     {
         $preco = 100;
         $desconto = 10;
