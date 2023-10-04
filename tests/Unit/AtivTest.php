@@ -11,6 +11,8 @@ final class AtivTest extends TestCase
         $preco = 100;
         $desconto = 10;
         $precoFinal = $preco - ($preco * ($desconto/100));
+        
         $this->assertTrue($precoFinal > 0);
+        
     }
 }
