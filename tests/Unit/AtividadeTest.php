@@ -5,7 +5,7 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-final class EqualsTest extends TestCase
+final class AtividadeTest extends TestCase
 {
     public function testFailure(): void
     {
