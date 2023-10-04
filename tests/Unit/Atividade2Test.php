@@ -2,15 +2,15 @@
 
 namespace Tests\Unit;
 
-use PhpParser\Node\Stmt\Echo_;
 use PHPUnit\Framework\TestCase;
 
 final class Atividade2Test extends TestCase
 {
-    public function idade() {
+    public function idade(): void
+     {
         $anoNascimento = 1960;
         $anoAtual = date('Y');
         $idade = $anoAtual - $anoNascimento;
-        $this->assertEquals(35, $idade);
+        $this->assertSame(35, $idade);
     }
 }

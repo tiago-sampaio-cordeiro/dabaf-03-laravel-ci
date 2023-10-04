@@ -2,12 +2,11 @@
 
 namespace Tests\Unit;
 
-use PhpParser\Node\Stmt\Echo_;
 use PHPUnit\Framework\TestCase;
 
 final class AtividadeTest extends TestCase
 {
-    public function testSoma()
+    public function testSoma(): void
     {
         $num1 = 10;
         $num2 = 15;
