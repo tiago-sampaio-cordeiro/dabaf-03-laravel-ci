@@ -6,8 +6,12 @@ use PHPUnit\Framework\TestCase;
 
 final class AtividadeTest extends TestCase
 {
-    public function testFailure(): void
+    public function testSoma()
     {
-        $this->assertEquals(1, 0);
+        $num1 = 10;
+        $num2 = 15;
+        $resultado = $num1 + $num2;
+        
+        $this->assertEquals(10, $resultado);
     }
 }
