@@ -28,7 +28,7 @@ final class AtividadeTest extends TestCase
     {
         $precoFinal = "caro";
 
-        $this->assertTrue($precoFinal , "caro");
+        $this->assertTrue($precoFinal === "caro");
     }
 
 }
