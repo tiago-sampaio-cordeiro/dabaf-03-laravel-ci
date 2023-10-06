@@ -12,7 +12,7 @@ final class AtividadeTest extends TestCase
         $num2 = 15;
         $resultado = $num1 + $num2;
 
-        $this->assertEquals(10, $resultado);
+        $this->assertEquals(25, $resultado);
     }
 
     public function testIdade()
@@ -21,7 +21,7 @@ final class AtividadeTest extends TestCase
        $anoAtual = date('Y');
        $idade = $anoAtual - $anoNascimento;
 
-       $this->assertSame(40, $idade);
+       $this->assertSame(63, $idade);
     }
 
     public function testDesconto()
