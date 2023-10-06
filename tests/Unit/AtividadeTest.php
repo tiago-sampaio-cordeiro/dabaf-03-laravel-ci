@@ -30,7 +30,7 @@ final class AtividadeTest extends TestCase
         $desconto = 10;
         $precoFinal = $preco - ($preco * ($desconto/100));
 
-        $this->assertTrue($precoFinal = 90);
+        $this->assertTrue($precoFinal === 90);
     }
 
 }
