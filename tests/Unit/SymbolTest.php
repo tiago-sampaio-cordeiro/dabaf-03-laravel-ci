@@ -11,6 +11,6 @@ class SymbolTest extends TestCase
     {
         $email = 'usuario@example.com';
 
-        $this->assertStringContainsString('com', $email);
+        $this->assertContains('com', $email);
     }
 }
