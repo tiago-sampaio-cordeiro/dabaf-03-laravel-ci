@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 class SymbolTest extends TestCase
 {
     
-    public function test_Contain_@_In_Email(): void
+    public function test_Formato(): void
     {
         $arquivo = arquivo.zip;
 
