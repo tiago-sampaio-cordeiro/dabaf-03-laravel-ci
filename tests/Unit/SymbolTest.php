@@ -11,6 +11,6 @@ class SymbolTest extends TestCase
     {
         $arquivo = "arquivo.zip";
 
-        $this->assertStringMatchesFormatFile('arquivo.zip', '$arquivo');
+        $this->assertStringMatchesFormatFile('$arquivo', 'arquivo.zip');
     }
 }
