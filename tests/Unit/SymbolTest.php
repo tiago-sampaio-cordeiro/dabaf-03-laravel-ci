@@ -9,7 +9,7 @@ class SymbolTest extends TestCase
     
     public function test_Formato(): void
     {
-        $arquivo = arquivo.zip;
+        $arquivo = "arquivo.zip";
 
         $this->assertStringMatchesFormatFile('arquivo.zip', '$arquivo');
     }
