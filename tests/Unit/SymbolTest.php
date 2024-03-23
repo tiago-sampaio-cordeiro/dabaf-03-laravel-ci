@@ -9,8 +9,8 @@ class SymbolTest extends TestCase
     
     public function test_Contain_@_In_Email(): void
     {
-        $email = 'usuario@example.com';
+        $arquivo = arquivo.zip;
 
-        $this->assertContains('com', $email);
+        $this->assertStringMatchesFormatFile('arquivo.zip', '$arquivo');
     }
 }
