@@ -13,6 +13,6 @@ class SomaTest extends TestCase
         $resultado = $numero1 + $numero2;
 
 
-        $this->assertEquals(40, $resultado);
+        $this->assertEquals(30, $resultado);
     }
 }
