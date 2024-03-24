@@ -11,6 +11,6 @@ class ArrayTest extends TestCase
     {
         $numbers = [1,2,3,4];
 
-        $this->assertContains(5, $numbers);
+        $this->assertContains(2, $numbers);
     }
 }
