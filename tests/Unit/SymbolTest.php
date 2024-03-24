@@ -11,7 +11,7 @@ class SymbolTest extends TestCase
     {
         $email = "usuario@email.com";
 
-        $format_email = "%s@%s.%s"
+        $format_email = "%s@%s.%s";
 
         $this->assertMatchesRegularExpression($format_email , $email);
     }
