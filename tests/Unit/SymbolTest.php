@@ -13,6 +13,6 @@ class SymbolTest extends TestCase
 
         $format_email = "%s@%s.%s"
 
-        $this->assertStringMatchesFormatFile($format_email , $email);
+        $this->assertMatchesRegularExpression($format_email , $email);
     }
 }
