@@ -11,6 +11,6 @@ class SymbolTest extends TestCase
     {
         $email = "usuario@email.com";
 
-        $this->assertStringMatchesFormatFile('example-app/email/format_email.txt', $email);
+        $this->assertStringMatchesFormatFile('/../email/format_email.txt', $email);
     }
 }
