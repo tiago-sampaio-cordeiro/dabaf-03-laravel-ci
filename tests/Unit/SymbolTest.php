@@ -9,7 +9,7 @@ class SymbolTest extends TestCase
     
     public function test_Formato_Email(): void
     {
-        $email = "usuarioemail.com";
+        $email = "usuario@email.com";
 
         $format_email = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
 
