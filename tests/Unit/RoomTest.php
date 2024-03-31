@@ -44,9 +44,8 @@ class RoomTest extends TestCase
         $room2 = Room::factory()->create();
         $this->assertCount(1,Room::all());
 
-        $rooms = Room::factory(10)->make();
+        //$rooms = Room::factory(10)->make();//
 
-        dd($rooms);
 
     }
 }
